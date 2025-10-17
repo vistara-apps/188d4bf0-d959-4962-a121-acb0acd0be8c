@@ -10,7 +10,7 @@
     "iconUrl": "https://predictors.app/icon.png",
     "splashImageUrl": "https://predictors.app/splash.png",
     "splashBackgroundColor": "#0f172a",
-    "homeUrl": "https://predictors.app",
-    "webhookUrl": "https://predictors.app/api/webhook"
+    "homeUrl": "https://app-acd0be8c-c31x.vercel.app",
+    "webhookUrl": "https://app-acd0be8c-c31x.vercel.app/api/webhook"
   }
 }
