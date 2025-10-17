@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BASE Theme - Dark blue background, Base blue accents */
+  --color-bg: 15 23 42;
+  --color-fg: 248 250 252;
+  --color-accent: 0 82 255;
+  --color-primary: 0 82 255;
+  --color-surface: 30 41 59;
+  --color-positive: 34 197 94;
+  --color-negative: 239 68 68;
+  
+  --radius-lg: 16px;
+  --radius-md: 10px;
+  --radius-sm: 6px;
+  
+  --shadow-card: 0 8px 24px rgba(0, 82, 255, 0.12);
+  --shadow-market: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-fg));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
