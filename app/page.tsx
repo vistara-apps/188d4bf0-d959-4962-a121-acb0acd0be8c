@@ -6,6 +6,7 @@ import { HeroSection } from './components/HeroSection';
 import { TrendingChart } from './components/TrendingChart';
 import { DiscoveryFeed } from './components/DiscoveryFeed';
 import { MarketStats } from './components/MarketStats';
+import { PaymentDemo } from './components/PaymentDemo';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -34,6 +35,7 @@ export default function Home() {
           </div>
           
           <div className="space-y-6">
+            <PaymentDemo />
             <MarketStats />
           </div>
         </div>
